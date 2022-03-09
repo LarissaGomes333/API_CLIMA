@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clima</title>
+  </head>
+
+  <body>
+    <div id="tudo">
+      <div id="adicionar">
+        <label for=""
+          ><input type="text" id="cidade" placeholder="Cidade"
+        /></label>
+        <button onclick="temperatura()">PROCURAR</button>
+      </div>
+
+      <div id="col">
+        <div id="dados">
+          <h1 id="nome">CIDADE</h1>
+          <p><output id="celsius"></output></p>
+          <p><output id="info"></output></p>
+            <p>MINÍMA: <output id="min"></output></p>
+            <p>MÁXIMA: <output id="max"></output></p>
+            <p>SENSAÇÃO: <output id="feels"></output></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
