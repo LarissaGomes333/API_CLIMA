@@ -2,7 +2,7 @@
 function temperatura() {
     var cidade = document.getElementById("cidade").value;
 
-    let url = `http://api.openweathermap.org/data/2.5/weather?q=${cidade}&units=metric&lang=pt_br&appid=e6d0f8c8a9bbcbef9f9953cefd2d966f`
+    let url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&units=metric&lang=pt_br&appid=e6d0f8c8a9bbcbef9f9953cefd2d966f`
 
 
     let info = {
